@@ -1,0 +1,58 @@
+.banerlewy{
+    text-align: center;
+    width: 75%;
+    height: 150px;
+    font-size: 200%;
+    float: left;
+}
+.banerprawy{
+    width: 25%;
+    height: 150px;
+    float: left;
+}
+img{
+    width: 85%;
+    height: 150px;
+}
+.glowny{
+    background-color: rgb(128, 0, 0);
+    padding: 50px;
+    text-transform: uppercase;
+}
+.stopkalewa,.stopkaprawa{
+    width: 20%;
+    padding-top: 90px;
+}
+.stopkasrodkowa{
+    text-align: center;
+    width: 60%;
+}
+body{
+    font-family: Arial;
+    background-color: rgb(244, 164, 96);
+    color: white;
+}
+h3{
+    font-size: 150%;
+    border: 2px dotted rgb(169, 169, 169);
+    transition: background-color 0.3s;
+}
+
+p:hover{
+    background-color: rgb(169, 169, 169);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid rgb(192, 192, 192);
+    padding: 5px; 
+}
+th{
+    border: 1px solid rgb(192, 192, 192);
+    padding: 5px; 
+}
+.stopkalewa,.stopkaprawa,.stopkasrodkowa{
+    float: left;
+}
